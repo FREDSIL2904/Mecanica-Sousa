@@ -1,0 +1,75 @@
+.bg-black{
+    background-color: #000;
+    color: #fff;
+}
+.bg-black a{
+    color: #fff;
+}
+.bg-black a:hover{
+    color: #fff;
+    text-shadow: 1px 1px 1px #fff217;
+}
+#sec01{
+   background-image: url("../_img/img1.jpeg");
+   min-height: 90vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: left center;
+}
+.bg-black2{
+    min-height: 90vh;
+    background-color: rgba(0,0,0,0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text-yellow{
+    color: yellow;
+}
+.btn-yellow {
+    background-color: yellow;
+    color: black;
+    border-radius: 10px;
+}
+.bg-amarela{
+    background-color: yellow;
+    color: black;
+}
+.btn-yellow:hover{
+    background-color: black;
+    color: yellow;
+    border-color: yellow;
+}
+hr{
+    border: 3px solid yellow;
+    opacity: 1;
+    height: 40%;
+}
+#sec-somos{
+  background-image: url("../_img/pneu.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.car{
+    width: 300px;
+    
+}
+.contato{
+    min-height: 80vh;
+}
+.msg{
+    background-color: yellow;
+}
+@media (max-width: 435px){
+    .car{
+        position: relative;
+        left: 20px;
+    }
+}
+@media (min-width: 435px){
+    .car{
+    position: relative;
+        left: 30%;
+    }
+}
